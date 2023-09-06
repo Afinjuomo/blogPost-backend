@@ -1,4 +1,4 @@
-# to-do-list-backend
+#blogPost-backend
 Design a Blog API using Node.js + TS, with postgres for the DB. 
 You can use any ORM for this
 Users should be able to get all blog posts
