@@ -27,7 +27,6 @@ config_1.db.sync({})
     .catch((err) => {
     console.log(err);
 });
-// {force:true}
 const port = PORT;
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);

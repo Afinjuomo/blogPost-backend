@@ -32,7 +32,7 @@ db.sync({})
   console.log(err);
 });
 
-// {force:true}
+
 
 const port = PORT;
 
