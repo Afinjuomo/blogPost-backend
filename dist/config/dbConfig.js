@@ -9,11 +9,11 @@ dotenv_1.default.config();
 const stage = process.env.NODE_ENV;
 console.log(stage);
 let config;
-if (stage === "production") {
-    config = require("./prod").default;
-    console.log(config);
-}
-else if (stage === "development") {
+// if (stage === "production") {
+//   config = require("./prod").default;
+//   console.log(config);
+// } else 
+if (stage === "development") {
     config = require("./dev").default;
     console.log(config);
 }
